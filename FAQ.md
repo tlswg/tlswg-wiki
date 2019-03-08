@@ -18,7 +18,7 @@ Anything not in the previous question, though there are a few things in particul
 
 There are several things you can do to gauge interest. First, it might help to look through the WG archives for related ideas. If the same proposal was brought to the group and rejected, understanding the rationale for said decision is an important piece of historical data to consider. Have circumstances changed since that decision such that the idea is now practical? 
 
-If there are no obviously related drafts, the next step is write up the idea in an Individual Draft and submit it to the working group for discussion. Be sure to carefully motivate the problem in consideration and clearly describe the proposed solution. If applicable, also discuss the extent to which the proposal’s security properties have been studied or formally analyzed. It’s common to submit new ideas without any sort of analysis. 
+If there are no obviously related drafts, the next step is write up the idea in an Individual Draft and submit it to the working group for discussion. Be sure to carefully motivate the problem in consideration and clearly describe the proposed solution. If applicable, also discuss the extent to which the proposal’s security properties have been studied or formally analyzed. It’s common to submit new ideas without any sort of analysis.
 
 ## What do I need to register codepoints for TLS ciphersuites, extensions, etc.?
 
@@ -59,6 +59,14 @@ The following list enumerates all items whose policy is neither Expert Review no
 7. [TLS Signature Algorithm, in the range 0-63](https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml#tls-parameters-16)
 8. [TLS CachedInformationType, in the range 0-63](https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xhtml#cachedinformationtype)
 9. [TLS HashAlgorithm, in the range 0-63](https://www.iana.org/assignments/tls-parameters/tls-parameters.xhtml#tls-parameters-18)
+
+## Should the WG adopt and work on my draft?
+
+In short, the TLS WG aims to adopt work items that introduce core changes to the TLS protocol or extensions which have wide applicability and use. In practice, this means documents with intended Proposed Standard status or which seek recommended registry (Y) codepoints should aim for WG adoption. This is to ensure that any significant change to TLS receives adequate community review prior to publication.
+
+RFC2026 (BCP 9) describes the differences between different document status levels, i.e., Proposed Standard, Experimental, or Informational. Briefly, Standards track documents expect significant community review prior to completion. In contrast, Informational documents encapsulate information for the community, without any form of consensus around the information, and Experimental documents aim to record some technology development efforts for the broader community. 
+
+Documents which aim to seek non recommended codepoints (N) do not require WG adoption, and should follow the Specification Required process outlined above for codepoint registration. Documents which target Experimental status should only seek adoption if they introduce non-trivial changes to TLS. Likewise, documents which target Informational status should consult the TLS WG to see if there’s interest in the WG adopting the work for the purposes of broad review. Otherwise, said documents do not require adoption.
 
 ## Will my proposal require formal analysis before acceptance by the WG? 
 
