@@ -1,6 +1,6 @@
 # Transport Layer Security
 
-This page collates research relevant to TLS and its developement through the years. 
+This page collates research relevant to TLS and its developement through the years. It may be incomplete.
 
 ## Key Exchange Security Models
 
