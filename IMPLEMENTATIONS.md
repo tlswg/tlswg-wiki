@@ -1,4 +1,4 @@
-Below is a list of implementations of TLS 1.3. Add your own. Talk to [@chris-wood](/chris-wood) if you have questions.
+Below is a list of implementations of TLS 1.3.
 
 # Implementations
 
