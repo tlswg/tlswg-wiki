@@ -90,3 +90,15 @@ No, it does not require review by the TLS WG. However, we encourage authors to s
 
 If your proposal introduces new cryptographic algorithms or mechanisms, or even uses existing mechanisms, consider reaching out to the [IRTF Crypto Forum Research Group (CFRG)](https://irtf.org/cfrg) for consultation. 
 
+## Guidance for TLS WG Presenters
+
+1. All slides must be sent to the TLS WG chairs (tls-chairs@ietf.org) or submitted to the [GitHub repository](https://github.com/tlswg/wg-materials) as a Pull Request in PDF format. PowerPoint and Keynote files will not be accepted.
+
+2. With few exceptions, all non-WG presentations must have an accompanied [I-D submitted before the IETF draft deadline preceding the meeting](https://datatracker.ietf.org/submit/). This gives WG members ample time to review the document prior to the meeting as well as ensuring draft authors acknowledge the [Note Well](https://datatracker.ietf.org/submit/note-well/).
+
+3. Presentation slides and any supporting materials for non-WG drafts must be sent to the TLS WG chairs (tls-chairs@ietf.org) at least 48 hours in advance. This gives the chairs an opportunity to review the presentation and post it for the WG to review before the meeting. (Chairs post the item at least 24 hours in advance of the meeting.) Failure to provide the slides in this time frame will result in your presentation being removed from the agenda. The presentation should not focus on explaining all technical details. Instead, aim for a high level overview and reserve details for those items that need additional  elucidation. For example, use of a particular cryptographic primitive within the context of TLS should be described without explaining the mathematical details of said primitive.
+
+4. Every presentation should have a one-slide overview of the main points with links to additional reading resources. Presentations should be able to cover this slide in a few minutes. In cases where the WG runs short on time due to critical working group discussions, such slides provide enough information for interested readers to learn more.
+
+5. Plan time for questions. This should typically be 25% or more of your allotted time, or 50% if you are planning on asking the working group questions such as, “is there interest in my draft?”
+
