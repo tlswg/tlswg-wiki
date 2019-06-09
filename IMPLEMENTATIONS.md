@@ -1,5 +1,3 @@
-Below is a list of implementations of TLS 1.3.
-
 # Implementations
 
 name | language | role(s) | [version](Implementations#version-negotiation) | features/limitations
@@ -26,46 +24,16 @@ miTLS | F* | C/S | RFC 8446 | EC/DHE/PSK/0-RTT, no RSA-PSS, no post-HS-auth, no 
 [JSSE/JDK](http://java.oracle.com) | Java | C/S | RFC 8446 | **JDK 11 only:**  All required extensions and algorithms, ECDHE (all), FFDHE, RSA-PSS certs/signatures, PSK resumption, HelloRetryRequest, cookie extension, post handshake messages (NewSessionTicket/KeyUpdate), OCSP Stapling, Middlebox compatibility mode.  **No support for:** previous drafts, 0-RTT, CCM, x25519/x448 & ChaCha20/Poly1305 (although JCA/JCE support is now available in JDK 11), SCT, post_handshake_auth.
 [CycloneSSL](https://www.oryx-embedded.com/cyclone_ssl.html) | C | C/S | RFC 8446 | P-256, P-384, X25519, X448, FFDHE, AES-GCM, AES-CCM, ChaCha20Poly1305, HelloRetryRequest, PSK, 0-RTT (client only), CCS, cookies, KeyUpdate, RSA-PSS certificates, ECDSA certificates, EdDSA certificates (Ed25519 and Ed448)
 
-# Version Negotiation
-
-As of draft-16 version negotiation is in the "supported_versions" extension.
-Versions should advertise a draft version of TLS 1.3 as `{0x7f, <version-number>}` (for draft-16: {0x7f, 10}).
-
 # Browsers
 
-## Firefox
-
-Available in all versions.  TLS 1.3 is enabled by default from Firefox 60 (draft 23) on. Firefox 61 will support the final draft 28. On earlier versions, TLS 1.3 is disabled by default on the Release channel (set `security.tls.version.max` to 4 in `about:config` to enable it).
-
-## Chrome
-
-Need Chrome Version 57, uses BoringSSL (draft -18). Chrome 65 has implemented draft-22 and draft-23.
-Chromium 70 supports draft-23, draft-28 and final.
-
-Go to `chrome://flags/#tls13-variant` and set the TLS 1.3 variant to `Enabled (Final)` (observed in Chromium 70).
-
-## Safari
-
-Need macOS High Sierra or iOS 11. [draft -18](https://mailarchive.ietf.org/arch/msg/tls/38hn9mRARfDpNdwVKXSpCFhRXs4)
-
-On macOS, execute: `defaults write /Library/Preferences/com.apple.networkd tcp_connect_enable_tls13 1`
-On iOS, install the following profile: https://developer.apple.com/go/?id=tls13-mobile-profile
+Default support in Firefox, Chrome, and Safari.
 
 # Test servers
 
-Implementation | Version | URL
---- | --- | ---
-BoringSSL+nginx | -28 | https://enabled.tls13.com 
-[mod_nss](https://fedorahosted.org/mod_nss/) | -28 | https://tls13.crypto.mozilla.org/ 
-BoringSSL | -23, -28, RFC8446 | https://tls.ctf.network/
-rustls+nginx | RFC8446 | https://rustls.jbp.io/
-picotls+H2O | -18 | https://h2o.examp1e.net
-Haskell tls | -28 | https://mew.org/
-OpenSSL | -18 | https://tls13.baishancloud.com/
-OpenSSL | -22 | https://tls13.baishancloud.com:44344/
-OpenSSL+nginx | -26 | https://tls14.com/
-OpenSSL+nginx | RFC8446 | https://tls13.pinterjann.is/
-SwiftTLS | -26,-28, RFC8446 | https://swifttls.org/
-Tris+Caddy | RFC 8446 | https://www.henrock.net/
-**Discontinued:**
-OpenSSL | -23 | https://tls13.akamai.io/
+Implementation | URL
+--- | ---
+BoringSSL | https://tls.ctf.network/
+rustls+nginx | https://rustls.jbp.io/
+OpenSSL+nginx | https://tls13.pinterjann.is/
+SwiftTLS | https://swifttls.org/
+Tris+Caddy | https://www.henrock.net/
