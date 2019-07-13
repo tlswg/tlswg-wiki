@@ -15,7 +15,7 @@ miTLS | F* | C/S | RFC 8446 | EC/DHE/PSK/0-RTT, no RSA-PSS, no post-HS-auth, no 
 [rustls](https://github.com/ctz/rustls) | Rust | C/S | -28 (final on branch) | P-256/P-384/curve25519, HRR, resumption, 0-RTT client |
 [Haskell tls](https://github.com/kazu-yamamoto/hs-tls/tree/tls13) | Haskell | C/S | -28 | ECDHE w/ P* and X*, full, HRR, PSK, 0RTT
 [Leto](https://github.com/Drawaes/Leto/tree/master) | C# | S | -18 | DHE, X25519, AES, no PSK no 0RTT. Tested against NSS
-[OpenSSL](https://www.openssl.org) | C | C/S | RFC 8446 | P-256, P-384, P-521, X25519, X448, Ed25519, Ed448, HelloRetryRequest, resumption, PSK, 0-RTT, CCS, cookies, stateless server, Post-handshake auth, KeyUpdate, RSA-PSS certs, no FFDHE
+[OpenSSL](https://www.openssl.org) | C | C/S | RFC 8446 | P-256, P-384, P-521, FFDHE, X25519, X448, Ed25519, Ed448, HelloRetryRequest, resumption, PSK, 0-RTT, CCS, cookies, stateless server, Post-handshake auth, KeyUpdate, RSA-PSS certs
 [wolfSSL](https://www.wolfssl.com) | C | C/S | RFC 8446 -18/-22/-23/-26/-28 | P-256, P-384, X25519, Ed25519, HelloRetryRequest, resumption, PSK, 0-RTT, CCS, cookies, stateless server, Post-Handshake Auth, KeyUpdate
 [GnuTLS](https://www.gnutls.org) | C | C/S | RFC 8446 | P-256, P-384, X25519, FFDHE, RSA-PSS (keys and certs), HelloRetryRequest, KeyUpdate, Post-Handshake Auth, PSK
 [tlslite-ng](https://github.com/tomato42/tlslite-ng) | Python | C/S | RFC 8446 | ECDHE (all), EdDHE (X25519, X448), FFDHE (all), AES-GCM, Chacha20, HelloRetryRequest, RSA, RSA-PSS keys and certificate signatures, cookie extension, CCS, PSK, resumption, in-handshake client auth, no ECDSA certificates, no post-handshake client auth, no 0-RTT, no KeyUpdate
