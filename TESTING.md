@@ -4,6 +4,7 @@ This page lists correctness and safety testing resources for TLS implementations
 
 *Note that **there is no official conformance test suite**.*
 
+* [badssl](https://badssl.com/) - Insecure and uncommon server configurations
 * [BoGo](https://github.com/google/boringssl/tree/master/ssl/test) - Test harness for (D)TLS, supported by BoringSSL and [NSS](https://wiki.mozilla.org/NSS/BoGo_Tests). See [PORTING.md](https://github.com/google/boringssl/blob/master/ssl/test/PORTING.md) for information about supporting other implementations.
 * [TLS Attacker](https://github.com/RUB-NDS/TLS-Attacker) - TLS-Attacker is a Java-based framework for analyzing TLS libraries.
 * [tlsfuzzer](https://github.com/tomato42/tlsfuzzer) - Fuzzer and test suite for TLS (SSLv2, SSLv3, v1.0, v1.1, v1.2, v1.3) implementations.
