@@ -37,3 +37,4 @@ rustls+nginx | https://rustls.jbp.io/
 OpenSSL+nginx | https://tls13.pinterjann.is/
 SwiftTLS | https://swifttls.org/
 Tris+Caddy | https://www.henrock.net/
+OpenSSL | https://tls13.akamai.io/
