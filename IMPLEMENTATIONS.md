@@ -24,6 +24,7 @@ miTLS | F* | C/S | RFC 8446 | EC/DHE/PSK/0-RTT, no RSA-PSS, no post-HS-auth, no 
 [JSSE/JDK](http://java.oracle.com) | Java | C/S | RFC 8446 | **JDK 11+:**  All required extensions and algorithms, ChaCha20/Poly1305 ciphersuites (JDK 12+), all listed named groups (e.g. secp256r1, x25519/x448 (JDK 13+), FFDHE, etc.), RSA-PSS certs/signatures, PSK resumption, HelloRetryRequest, cookie extension, post handshake messages (NewSessionTicket/KeyUpdate), OCSP Stapling, Middlebox compatibility mode.  **No support for:** previous drafts, 0-RTT, CCM, SCT, post_handshake_auth.
 [CycloneSSL](https://www.oryx-embedded.com/cyclone_ssl.html) | C | C/S | RFC 8446 | P-256, P-384, X25519, X448, FFDHE, AES-GCM, AES-CCM, ChaCha20Poly1305, HelloRetryRequest, PSK, 0-RTT (client only), CCS, cookies, KeyUpdate, RSA-PSS certificates, ECDSA certificates, EdDSA certificates (Ed25519 and Ed448)
 [tttls1.3](https://github.com/thekuwayama/tttls1.3) | Ruby | C/S | RFC 8446 | P-256/P-384/P-521, AES-GCM/ChaCha20Poly1305, HRR, PSK resumption(NewSessionTicket), 0-RTT(client only)
+[Rebex TLS 1.3](https://www.rebex.net/tls/) | C# | C/S | RFC 8446 | All required extensions and algorithms, RSA-PSS certificates/signatures, HelloRetryRequest, PSK resumption, in-handshake auth, post-handshake auth (experimental), post handshake messages (NewSessionTicket, KeyUpdate (experimental)), Middlebox compatibility mode, P-256/P-384/P-521, AES-GCM, Chacha20/Poly1305, Cookie extension.
 
 # Browsers
 
@@ -39,3 +40,4 @@ OpenSSL+nginx | https://tls13.pinterjann.is/
 SwiftTLS | https://swifttls.org/
 Tris+Caddy | https://www.henrock.net/
 OpenSSL | https://tls13.akamai.io/
+Rebex | https://test.rebex.net/
