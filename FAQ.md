@@ -20,6 +20,23 @@ There are several things you can do to gauge interest. First, it might help to l
 
 If there are no obviously related drafts, the next step is write up the idea in an Individual Draft and submit it to the working group for discussion. Be sure to carefully motivate the problem in consideration and clearly describe the proposed solution. If applicable, also discuss the extent to which the proposal’s security properties have been studied or formally analyzed. It’s common to submit new ideas without any sort of analysis.
 
+## How do I interact with the TLS WG list?
+
+The TLS list, tls@ietf.org, is governed by IETF’s Working Group Procedures [BCP25](https://datatracker.ietf.org/doc/bcp25/), which also includes Anti-Harassment Procedures, and by participating you agree to the Note Well [NW](https://www.ietf.org/about/note-well/) and to follow the Code of Conduct [CoC](https://datatracker.ietf.org/doc/bcp54/). Thank you for contributing as part of the TLS Working Group.
+
+As moderators of this list, we are charged with determining when messages are “disruptive to the WG process”, phrase from [RFC 3934](https://datatracker.ietf.org/doc/rfc3934/), and, at a minimum, we consider the following to be disruptive:
+Unsolicited bulk e-mail (from [RFC 3683](https://datatracker.ietf.org/doc/rfc3683/))
+Discussion of subjects unrelated to IETF policy, meetings, activities, or technical concerns RFC 3683](https://datatracker.ietf.org/doc/rfc3683/)
+Unprofessional commentary, regardless of the general subject RFC 3683](https://datatracker.ietf.org/doc/rfc3683/)
+Repetition of arguments without providing substantive new information 
+Requesting an unreasonable amount of work to provide information
+
+To elaborate on unprofessional commentary, we believe that this also includes uncivil commentary as defined by the IETF List Moderators that includes threats of violence, personal attacks, and derogatory language (see https://github.com/ietf/Moderators/blob/main/uncivil-commentary.md#descriptions).
+
+RFC 3683 also includes “announcements of conferences, events, or activities that are not sponsored or endorsed by the Internet Society or the IETF”. Please contact the chairs if you wish to share these types of announcements, but in general we do not believe they are disruptive unless they are excessive and lack relevance.
+
+Reminder that if at anytime you feel that if somebody is out of line you can say so on list or directly to us (mailto:tls-chairs@ietf.org), the ADs (mailto:sec-ads@ietf.org), or the Ombudsteam (mailto:ombudsteam@ietf.org); all IETF Participants are encouraged to talk with the Ombudsteam if they are uncomfortable or unsure about any behaviors.
+
 ## What do I need to register codepoints for TLS ciphersuites, extensions, etc.?
 
 RFC 8446 and 8447 describe new processes by which IANA codepoints are allocated for TLS. See [RFC8447](https://tools.ietf.org/html/rfc8447) for more details on this process. Importantly, RFC 8447 changed some codepoint registration policies to Specification Required. This means registrations are permitted given (1) a permanent and readily available public specification describing the registration (extension, ciphersuite, etc.), such as an Internet Draft, and (2) review by the TLS designated experts, who may be reached at tls-reg-review@ietf.org. The Expert Review policy only requires sign-off from the TLS designated experts.
