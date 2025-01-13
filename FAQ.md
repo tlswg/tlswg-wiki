@@ -2,11 +2,11 @@
 
 This page holds answers to frequently asked questions in the TLS WG. Pull requests to maintain this page are highly encouraged.
 
-## What is in scope for the TLS WG?
+## What's in scope for this WG?
 
 The TLS working group concerns itself with the maintenance of the core TLS protocol. This includes the TLS and DTLS specification, plus any extensions that have wide applicability to TLS usage. 
 
-## What is out of scope for the TLS WG?
+## What's out of scope?
 
 Anything not in the previous question, though there are a few things in particular:
 
@@ -14,7 +14,7 @@ Anything not in the previous question, though there are a few things in particul
 2. Cryptographic primitives: The [IRTF Crypto Forum Research Group (CFRG)](https://irtf.org/cfrg) is one venue that you can discuss standardizing new primitives.
 3. Application or domain-specific extensions to TLS: The working group usually only considers extensions to the protocol that are widely applicable. If your extension is specific to an application or deployment, the working group might not consider adopting the work. You are still encouraged to discuss such work, particularly if you are not sure. The working group has many people with considerable expertise in this area.
 
-## I have a proposal for the TLS WG — what is the best way to see if others are interested in it?
+## I have an idea for the TLS WG — what is the best way to see if others are interested in it?
 
 There are several things you can do to gauge interest. First, it might help to look through the WG archives for related ideas. If the same proposal was brought to the group and rejected, understanding the rationale for said decision is an important piece of historical data to consider. Have circumstances changed since that decision such that the idea is now practical? 
 
@@ -38,9 +38,11 @@ RFC 3683 also includes “announcements of conferences, events, or activities th
 
 Reminder that if at anytime you feel that if somebody is out of line you can say so on list or directly to us (mailto:tls-chairs@ietf.org), the ADs (mailto:sec-ads@ietf.org), or the Ombudsteam (mailto:ombudsteam@ietf.org); all IETF Participants are encouraged to talk with the Ombudsteam if they are uncomfortable or unsure about any behaviors.
 
-## What do I need to register codepoints for TLS ciphersuites, extensions, etc.?
+## How do I register codepoints for TLS ciphersuites, extensions, etc.?
 
-RFC 8446 and 8447 describe new processes by which IANA codepoints are allocated for TLS. See [RFC8447](https://tools.ietf.org/html/rfc8447) for more details on this process. Importantly, RFC 8447 changed some codepoint registration policies to Specification Required. This means registrations are permitted given (1) a permanent and readily available public specification describing the registration (extension, ciphersuite, etc.), such as an Internet Draft, and (2) review by the TLS designated experts, who may be reached at tls-reg-review@ietf.org. The Expert Review policy only requires sign-off from the TLS designated experts.
+All registrations require an Expert Review; the panel of experts can be  reached at tls-reg-review@ietf.org. Some registrations are also Specification Required, which means a permanent readily-available document describing the document. Note that an Internet-Draft, even an expired one, is acceptable (although there is some discussion within the IETF about changing that). Also, the current panel of experts is inclined to require some form of documentation for all registrations.
+
+ See [RFC8447](https://tools.ietf.org/html/rfc8447) for more details on this process.
 
 The following list enumerates all items whose policy is Expert Review.
 
@@ -106,7 +108,9 @@ No, it does not require review by the TLS WG. However, we encourage authors to s
 
 ## Outside of the TLS WG, what are good working groups to consult if my proposal impacts TLS?
 
-If your proposal introduces new cryptographic algorithms or mechanisms, or even uses existing mechanisms, consider reaching out to the [IRTF Crypto Forum Research Group (CFRG)](https://irtf.org/cfrg) for consultation. 
+If your proposal introduces new cryptographic algorithms or mechanisms, or even uses existing mechanisms, consider reaching out to the [IRTF Crypto Forum Research Group (CFRG)](https://irtf.org/cfrg) for consultation.
+
+If your proposal describes how to use TLS in a particular application, consider reaching out to the [Using TLS in Applications Working Group (UTA-WG)](https://datatracker.ietf.org/wg/uta) for consultation.
 
 ## Guidance for TLS WG Presenters
 
@@ -119,4 +123,3 @@ If your proposal introduces new cryptographic algorithms or mechanisms, or even 
 4. Every presentation should have a one-slide overview of the main points with links to additional reading resources. Presentations should be able to cover this slide in a few minutes. In cases where the WG runs short on time due to critical working group discussions, such slides provide enough information for interested readers to learn more.
 
 5. Plan time for questions. This should typically be 25% or more of your allotted time, or 50% if you are planning on asking the working group questions such as, “is there interest in my draft?”
-
