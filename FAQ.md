@@ -18,7 +18,11 @@ Anything not in the previous question, though there are a few things in particul
 
 There are several things you can do to gauge interest. First, it might help to look through the WG archives for related ideas. If the same proposal was brought to the group and rejected, understanding the rationale for said decision is an important piece of historical data to consider. Have circumstances changed since that decision such that the idea is now practical? 
 
-If there are no obviously related drafts, the next step is write up the idea in an Individual Draft and submit it to the working group for discussion. Be sure to carefully motivate the problem in consideration and clearly describe the proposed solution. If applicable, also discuss the extent to which the proposal’s security properties have been studied or formally analyzed. It’s common to submit new ideas without any sort of analysis.
+If there are no obviously related drafts, the next step is to write up the idea in an Individual Draft and submit it; see [drafting](https://authors.ietf.org/en/choosing-a-format-and-tools), [content]([https://authors.ietf.org/en/content-guidelines-overview,) and [submitting](https://authors.ietf.org/submitting-your-internet-draft). Be sure to carefully motivate the problem in consideration and clearly describe the proposed solution. If applicable, also discuss the extent to which the proposal’s security properties have been studied or formally analyzed. It is common to submit new ideas without any sort of analysis.
+
+After submitting the draft to the datatracker, send an announcement to the mailing list about the Individual Draft. In this announcement, link to the Individual Draft’s datatracker page and summarize the purpose and who should be interested; this announcement should come well before asking for agenda time to allow the Working Group time to discuss it. It is better to have discussed the proposal on the list for at least one meeting cycle before requesting agenda time {{#agenda-requests}}. If you do attend an IETF meeting in person, you can discuss your Individual Draft with a smaller group and address any initial suggestions before engaging with the entire WG. In other words, submitting an initial version of the Internet Draft at the submission deadline, which is two weeks before the IETF face to face meetings, and expecting widespread support is unlikely to happen.
+
+Just a reminder that the chairs run the Working Group call for adoption, i.e., the formal process for judging whether there is consensus to adopt an Individual Draft, but authors are free to send emails asking what the Working Group thinks of their Individual Draft.
 
 ## How do I interact with the TLS WG list?
 
@@ -88,11 +92,18 @@ RFC2026 (BCP 9) describes the differences between different document status leve
 
 Documents which aim to seek non recommended codepoints (N) do not require WG adoption, and should follow the Specification Required process outlined above for codepoint registration. Documents which target Experimental status should only seek adoption if they introduce non-trivial changes to TLS. Likewise, documents which target Informational status should consult the TLS WG to see if there’s interest in the WG adopting the work for the purposes of broad review. Otherwise, said documents do not require adoption.
 
+While the WG will be considerate of perspectives of different TLS user communities, there is the possibility that a proposal, even one that is in scope, is not adopted. There are a lot of reasons for this, but the most likely reason is lack of interest. Lack of interest can be attributed to many things, but two that spring to mind are:
+
+* Lack of bandwidth. The IETF is contribution driven, and sometimes the Working Group participants, who are essentially volunteering their time to review an Individual Draft, want to focus their limited time elsewhere.
+* Lack of support. The chairs need to judge whether there is sufficient interest to adopt an Individual Draft as a Working Group item, and that means there needs to be some number of participants willing to review,comment, and eventually implement. A lot of times, the reason for lack of support is a motivating use case; see {#interest}. A good practice is to attempt to evaluate the level of support yourself prior to asking for adoption.
+
+In some cases, the community that is interested in the draft is in another Working Group along with the expertise about the problem the draft is trying to solve.  In these cases, it may be more appropriate to have the draft adopted in another Working Group with review from the TLS Working Group at various points in the document lifecycle. Along these lines, see the later question about [extensions](#my-proposal-introduces-a-new-tls-extension-is-it-relevant-for-the-tls-wg-or-does-it-require-review-by-the-tls-wg); the proposal describes usage of TLS, see the later question about [usage](#my-proposal-describes-usage-of-tls-is-it-relevant-for-the-TLS-WG-or-does-it-require-review-by-the-tls-wg), and; the proposal defines a TLS profile; see the later question about [profiles](#my-proposal-describes-a-profile-of-tls-extension-is-it-relevant-for-the-TLS-WG-or-does-it-require-review-by-the-tls-wg).
+
 ## Will my proposal require formal analysis before acceptance by the WG? 
 
 In general, this depends on the draft in question. Formal analysis may be required by the group prior to any draft advancing to IESG (towards RFC publication). Some proposals may introduce sufficiently invasive changes that the WG deems formal analysis necessary prior to adoption in the group. Others may be uncontroversial and therefore require no formal analysis. If you are unsure about your proposal, please contact the TLS WG chairs (tls-chairs@ietf.org) for clarification.
 
-## My proposal introduces a new TLS extension — is it relevant for the TLS WG, or does it require review by the TLS WG?
+## My proposal introduces a new TLS extension - is it relevant for the TLS WG, or does it require review by the TLS WG?
 
 Many working groups propose new TLS extensions for use. See [RFC5764](https://tools.ietf.org/html/rfc5764) and [RFC8472](https://tools.ietf.org/html/rfc8472) as recent examples of such extensions. However, as per the new registration process outlined above, only TLS designated expert review is required for said extensions prior to allocation. 
 
