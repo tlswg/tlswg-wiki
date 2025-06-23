@@ -44,7 +44,7 @@ Reminder that if at anytime you feel that if somebody is out of line you can say
 
 ## How do I register codepoints for TLS ciphersuites, extensions, etc.?
 
-WARNING: Do not include code points in your drafts until you have heard from the Designated Experts!
+WARNING: Do not include code points in your drafts until you have heard from the Designated Experts or IANA!
 
 All registrations require an Expert Review; the panel of experts can be  reached at tls-reg-review@ietf.org. Some registrations are also Specification Required, which means a permanent readily-available document describing the document. Note that an Internet-Draft, even an expired one, is acceptable (although there is some discussion within the IETF about changing that). Also, the current panel of experts is inclined to require some form of documentation for all registrations.
 
