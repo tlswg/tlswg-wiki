@@ -46,7 +46,11 @@ Reminder that if at anytime you feel that if somebody is out of line you can say
 
 WARNING: Do not include code points in your drafts until you have heard from the Designated Experts or IANA!
 
-All registrations require an Expert Review; the panel of experts can be  reached at tls-reg-review@ietf.org. Some registrations are also Specification Required, which means a permanent readily-available document describing the document. Note that an Internet-Draft, even an expired one, is acceptable (although there is some discussion within the IETF about changing that). Also, the current panel of experts is inclined to require some form of documentation for all registrations.
+Registration requests **MUST** be submitted in one of two ways:
+* By sending email to iana@iana.org; this email **SHOULD** use an appropriate subject (e.g., "Request to register value in TLS bar registry").
+* Using the online form at https://www.iana.org/form/protocol-assignment.
+
+All registrations require an Expert Review; the panel of experts can be reached at tls-reg-review@ietf.org (use this to ask questions; see above for how to make a request).. Some registrations are also Specification Required, which means a permanent readily-available document describing the document. Note that an Internet-Draft, even an expired one, is acceptable (although there is some discussion within the IETF about changing that). Also, the current panel of experts is inclined to require some form of documentation for all registrations.
 
  See [RFC8447](https://tools.ietf.org/html/rfc8447) for more details on this process.
 
