@@ -31,8 +31,8 @@ The TLS list, tls@ietf.org, is governed by IETF’s Working Group Procedures [BC
 As moderators of this list, we are charged with determining when messages are “disruptive to the WG process”, phrase from [RFC 3934](https://datatracker.ietf.org/doc/rfc3934/), and, at a minimum, we consider the following to be disruptive:
 
 * Unsolicited bulk e-mail (from [RFC 3683](https://datatracker.ietf.org/doc/rfc3683/))
-* Discussion of subjects unrelated to IETF policy, meetings, activities, or technical concerns RFC 3683](https://datatracker.ietf.org/doc/rfc3683/)
-* Unprofessional commentary, regardless of the general subject RFC 3683](https://datatracker.ietf.org/doc/rfc3683/)
+* Discussion of subjects unrelated to IETF policy, meetings, activities, or technical concerns (from [RFC 3683](https://datatracker.ietf.org/doc/rfc3683/))
+* Unprofessional commentary, regardless of the general subject (from [RFC 3683](https://datatracker.ietf.org/doc/rfc3683/))
 * Repetition of arguments without providing substantive new information 
 * Requesting an unreasonable amount of work to provide information
 
