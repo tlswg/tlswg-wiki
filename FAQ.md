@@ -35,6 +35,7 @@ As moderators of this list, we are charged with determining when messages are â€
 * Unprofessional commentary, regardless of the general subject RFC 3683](https://datatracker.ietf.org/doc/rfc3683/)
 * Repetition of arguments without providing substantive new information 
 * Requesting an unreasonable amount of work to provide information
+* Including derivate work notices (see [IESG Statement](https://datatracker.ietf.org/doc/statement-iesg-statement-on-clarifying-derivative-works-rights/))
 
 To elaborate on unprofessional commentary, we believe that this also includes uncivil commentary as defined by the IETF List Moderators that includes threats of violence, personal attacks, and derogatory language (see https://github.com/ietf/Moderators/blob/main/uncivil-commentary.md#descriptions).
 
