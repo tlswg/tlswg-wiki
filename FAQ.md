@@ -132,7 +132,7 @@ If your proposal describes how to use TLS in a particular application, consider 
 
 ## Guidance for TLS WG Presenters
 
-1. All slides must be sent to the TLS WG chairs (tls-chairs@ietf.org) or submitted to the [GitHub repository](https://github.com/tlswg/wg-materials) as a Pull Request in PDF format. PowerPoint and Keynote files will not be accepted.
+1. All slides must be sent to the TLS WG chairs (tls-chairs@ietf.org) or uploaded via [Datatracker](https://datatracker.ietf.org/wg/tls/meetings/) in PDF format. PowerPoint and Keynote files will not be accepted.
 
 2. With few exceptions, all non-WG presentations must have an accompanied [I-D submitted before the IETF draft deadline preceding the meeting](https://datatracker.ietf.org/submit/). This gives WG members ample time to review the document prior to the meeting as well as ensuring draft authors acknowledge the [Note Well](https://datatracker.ietf.org/submit/note-well/).
 
