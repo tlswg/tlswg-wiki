@@ -22,7 +22,7 @@ If there are no obviously related drafts, the next step is to write up the idea 
 
 After submitting the draft to the datatracker, send an announcement to the mailing list about the Individual Draft. In this announcement, link to the Individual Draft’s datatracker page and summarize the purpose and who should be interested; this announcement should come well before asking for agenda time to allow the Working Group time to discuss it. It is better to have discussed the proposal on the list for at least one meeting cycle before requesting agenda time {{#agenda-requests}}. If you do attend an IETF meeting in person, you can discuss your Individual Draft with a smaller group and address any initial suggestions before engaging with the entire WG. In other words, submitting an initial version of the Internet Draft at the submission deadline, which is two weeks before the IETF face to face meetings, and expecting widespread support is unlikely to happen.
 
-Just a reminder that the chairs run the Working Group call for adoption, i.e., the formal process for judging whether there is consensus to adopt an Individual Draft, but authors are free to send emails asking what the Working Group thinks of their Individual Draft.
+Just a reminder that the chairs run the Working Group call for adoption, i.e., the formal process for judging whether there is consensus to adopt an Individual Draft, but authors are free to send emails asking what the Working Group thinks of their Individual Draft. Authors that want to ask for WG adoption should send this request off-list to the tls-chairs@ietf.org.
 
 ## How do I interact with the TLS WG list?
 
